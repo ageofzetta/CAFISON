@@ -152,9 +152,6 @@ header {
 	}
 #logo {
 	display:block;
-	position:absolute;
-	left:5px;
-	top:-15px;
 	font-family: 'AutumnRegular';
 	font-size:24px;
 	color:#fff;
@@ -163,9 +160,9 @@ header {
 	-webkit-text-shadow:1px 1px 1px #000;
 	-moz-text-shadow:1px 1px 1px #000;
 	text-shadow:1px 1px 1px #000;
-	background:url(images/logo.png) no-repeat;
-	height:32px;
-	padding:35px 15px 35px 125px;
+	line-height: 34px;
+	text-align: center;
+	padding-top: 1ex;
 	}
 footer {
 	font-family: 'BebasNeueRegular';
