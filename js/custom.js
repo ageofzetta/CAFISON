@@ -20,3 +20,4 @@ $('#main-menu').html('');
 var menu = 
 $('#main-menu').html(document.querySelector('link[rel="import"]').import.querySelector('.menu'));
 document.title = $('header a ').text();
+$('footer').html('Copyright @2015');
