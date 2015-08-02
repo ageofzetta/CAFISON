@@ -17,5 +17,5 @@ $(function(){
 
 
 $('#main-menu').html('');
-var menu = document.querySelector('link[rel="import"]').import.querySelector('.menu');
-$('#main-menu').append(menu);
+var menu = 
+$('#main-menu').html(document.querySelector('link[rel="import"]').import.querySelector('.menu'));
